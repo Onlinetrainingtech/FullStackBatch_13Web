@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Creating an Array from JSON</h2>
+
+    <p id="d1"></p>
+
+    <script>
+        const myJson='["azar","mohamed","fullstack"]';
+        const myArray=JSON.parse(myJson);
+        document.getElementById("d1").innerHTML=myArray;
+    </script>
+</body>
+</html>
